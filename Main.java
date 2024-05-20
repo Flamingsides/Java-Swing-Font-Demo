@@ -19,7 +19,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 
-public class Question3
+public class Main
 {
 	private static final int F_WIDTH = 1000;
 	private static final int F_HEIGHT = 500;
