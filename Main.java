@@ -29,10 +29,10 @@ public class Main
 	private JTextField textInput;
 	private JSpinner fontSizeInput;
 	
-	public Question3()
+	public Main()
 	{
 		this.frame = new JFrame();
-		this.frame.setTitle("Question 3: Fonts Demo");
+		this.frame.setTitle("Fonts Demo");
 		this.frame.setSize(F_WIDTH, F_HEIGHT);
 		this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.frame.setLocationRelativeTo(null);
@@ -42,7 +42,7 @@ public class Main
 	
 	public static void main(String[] args)
 	{
-		Question3 main = new Question3();
+		Main main = new Main();
 
 		Border padding = BorderFactory.createEmptyBorder(20, 20, 20, 20);
 		
